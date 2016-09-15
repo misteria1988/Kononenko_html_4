@@ -1,0 +1,148 @@
+﻿
+.mainbody {
+    
+    text-align: center;
+    width: 1280px;
+    margin: -5px auto;
+    background-image: url(background.png); 
+    height: 900px;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+.body{
+    
+    text-align: center;
+    width: 900px;
+    margin: 0px auto;
+    background-color: white; 
+    height: 900px;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.body-1{ 
+    width: 900px; 
+    height: 214px; 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-items: flex-end; 
+    justify-content: space-around; 
+} 
+ 
+ 
+.logo{ 
+    padding-left: 28px; 
+    padding-top: 20px; 
+ }  
+ 
+ 
+.contact{ 
+    font: 12px Tahoma; 
+    color: #128aa7; 
+    margin-right: 20px; 
+} 
+ 
+ 
+.flex-1:first-child{ 
+    align-self: flex-start;  
+}
+
+
+.flex-1:last-child{ 
+    padding-right: 8px; 
+} 
+ 
+.photo {
+    width: 900px; 
+}
+
+.menu-1 {
+    text-align: center;
+    font: 13px Tahoma;
+    position: absolute; 
+    height: 34px; 
+    width: 900px; 
+    background-color: #333; 
+   
+    box-shadow: 0 0 10px rgba(0,0,0,0.8); 
+}
+ 
+.menu-1 li {
+    float : left;
+    width: 125px;
+    height: 34px;
+    line-height: 34px;
+    cursor: pointer; 
+    overflow: hidden;  
+    
+}
+
+ 
+.menu-1 li a{ 
+    
+    width: 125px; 
+    height: 34px;
+    text-align: center;
+    background-color: #333; 
+    display: block;
+    text-decoration: none;
+    color: white; 
+    line-height: 30px;
+} 
+
+
+.menu-1 li:hover ul {
+    display: block;
+    position: absolute;
+ 
+}
+
+.menu-1 li:hover ul li {
+    float: none;
+}
+
+.body-3{ 
+    margin-top: 35px; 
+    height: 400px; 
+    width: 900px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-items: baseline; 
+    justify-content: space-between;       
+ } 
+
+.flex-2:first-child{ 
+    align-self: flex-start;  
+ } 
+ 
+
+.left,
+.right{ 
+    font: 14px Tahoma; 
+    color: #424c43; 
+    background: #edeef0; 
+    height: 300px; 
+    width: 256px; 
+    padding-top: 5px; 
+} 
+
+.left li:first-child, 
+.right li:first-child { 
+    font: bold 1.1em Tahoma; 
+    color: #424c43; 
+} 
+
+body-4{ 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font: 12px Tahoma; 
+    color: #edeef0;  
+    text-align: center; 
+} 
+ 
+
+
+
+
+
+
